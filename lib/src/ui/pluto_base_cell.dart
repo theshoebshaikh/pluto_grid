@@ -222,7 +222,7 @@ class _CellContainerState extends PlutoStateWithChange<_CellContainer> {
     required PlutoGridSelectingMode selectingMode,
   }) {
     if (!hasFocus) {
-      return gridBackgroundColor;
+      return Colors.transparent;
     }
 
     if (!isEditing) {
